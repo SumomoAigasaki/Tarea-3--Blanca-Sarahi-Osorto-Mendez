@@ -84,7 +84,8 @@ namespace AppIntegrarSqlite
                 {
                     DisplayAlert("Aviso", "Se Eliminara el Campo Seleccionado(ID): " + seleccionarItem.Id + " Nombre: " + seleccionarItem.Nombres + " De la lista de personas", "Ok");
 
-                    var listapersonas = conexion.Delete<Personas>(seleccionarItem);
+                    var listapersonas = conexion.Delete<Personas>(seleccionarItem.Id);
+                    OnAppearing();
                 }else
                 {
                     DisplayAlert("Sin Seleccion", "Por Favor Seleccione un Dato", "OK");
@@ -100,10 +101,6 @@ namespace AppIntegrarSqlite
         private void ListaPersonas_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             seleccionarItem = e.SelectedItem as Personas;
-
-          
-            //Confirmamos que se seleccione
-            //DisplayAlert("campo seleccionado (id): " + seleccionarItem.Id, "nombre " + seleccionarItem.Nombres + " "+ seleccionarItem.Apellidos + " correo " + seleccionarItem.Correo+ " de la lista", "ok");
 
         }
     }
