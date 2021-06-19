@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppIntegrarSqlite.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="toolbarmenu"
+                     Text="Ver Lista" 
+                     
+                         IconImageSource="example_icon.png"
+                         Order="Primary"
+                         Priority="0"
+                         Clicked="toolbarmenu_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout>
+
+
+            <Entry x:Name="txtID"
+                       Margin="20,0,20,0"
+                       IsVisible="False"
+                       Text="{Binding Id}"
+                       Background="#EEEDED" 
+                       TextColor="#000000"
+                       />
+
+            <Label Margin="20,10,20,0" 
+                   Text="* Ingrese Nombres: " 
+                   TextColor="Black"
+                   FontSize="20" 
+                   FontFamily="AppleNegrita"/>
+            
+                <Entry x:Name="txtNombres"
+                       Margin="20,0,20,0" 
+                       Text="{Binding Nombres}"
+                       Placeholder="Juan" 
+                       Background="#EEEDED" 
+                       TextColor="#000000"
+                       />
+            
+            
+            <Label Margin="20,10,20,0" 
+                   Text="* Ingrese Apellidos: " 
+                   TextColor="Black"
+                   FontSize="20" 
+                   FontFamily="AppleNegrita"/>
+                <Entry  x:Name="txtApellidos"
+                       Margin="20,0,20,0"
+                       Text="{Binding Apellidos}"
+                        Placeholder="Ariola Vaca" 
+                       Background="#EEEDED" 
+                       TextColor="#000000"
+                       />
+            <Label Margin="20,10,20,0" 
+                   Text="* Ingrese Edad: " 
+                   TextColor="Black"
+                   FontSize="20" 
+                   FontFamily="AppleNegrita"/>
+                <Entry Keyboard ="Numeric" 
+                       x:Name="txtEdad"
+                       Margin="20,0,20,0" 
+                       Text="{Binding Edad}"
+                       Placeholder="18" 
+                       Background="#EEEDED" 
+                       TextColor="#000000"
+                       />
+            <Label Margin="20,10,20,0" 
+                   Text="* Ingrese Correo: " 
+                   TextColor="Black"
+                   FontSize="20" 
+                   FontFamily="AppleNegrita"/>
+                <Entry  x:Name="txtCorreo"
+                       Margin="20,0,20,0" 
+                        Text="{Binding Correo}"
+                       Placeholder="juanariolabaca@email.com" 
+                       Background="#EEEDED" 
+                       TextColor="#000000"
+                       />
+            <Label Margin="20,10,20,0" 
+                   Text="* Ingrese Direccion: " 
+                   FontSize="20" 
+                   TextColor="Black"
+                   FontFamily="AppleNegrita"/>
+                <Entry  x:Name="txtDireccion"
+                       Margin="20,0,20,0" Text="{Binding Direccion}" Placeholder="B Centro" 
+                       Background="#EEEDED" 
+                       TextColor="#000000"
+                       />
+            <Label Margin="20,10,20,0" 
+                   Text="* Ingrese Fecha Nacimiento: " 
+                    TextColor="Black"
+                   FontSize="20" 
+                   FontFamily="AppleNegrita"/>
+                <DatePicker  
+                    x:Name="DatapickerFecha" 
+                    Margin="20,0,20,0"
+                    Background="#EEEDED"
+                    Format="dd/MM/yyyy"
+                    MinimumDate="01/01/1871"
+                    MaximumDate="12/31/9998"
+                    Date="{Binding FechaNacimiento}"  
+                     />
+
+
+                <Button Margin="20,10,20,0" 
+                        CornerRadius="10"
+                        BackgroundColor="#31DBE4"
+                         FontFamily="NewYork"
+                        x:Name="btnSalvar" Text="Guardar" Clicked="btnSalvar_Clicked" />
+
+        
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

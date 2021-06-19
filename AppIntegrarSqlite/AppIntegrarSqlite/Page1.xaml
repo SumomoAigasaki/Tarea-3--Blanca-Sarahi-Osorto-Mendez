@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppIntegrarSqlite.Page1">
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem  Clicked="MenuItem_Clicked"
+                            CommandParameter="{Binding Id}"
+                            Text="Mas" />
+        <ToolbarItem Clicked="MenuItem_Clicked_1"
+                            CommandParameter="{Binding Id}"
+                            Text="Eliminar" IsDestructive="True"/>
+    </ContentPage.ToolbarItems>-->
+
+    <StackLayout>
+
+        <ListView x:Name="ListaPersonas" ItemSelected="ListaPersonas_ItemSelected" RowHeight="300">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell >
+
+                        <Grid >
+                            <!--<Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>-->
+
+                            <Label  Grid.Column="0"
+                                    Grid.Row="0"
+                                    FontFamily="AppleNegrita"
+                                    Text="Nombre Completo: "
+                                    TextColor="Black"
+                                    FontSize="20"/>
+                            
+                            <Label Grid.Column="1"
+                                   Grid.Row="0"
+                                   FontFamily="AppleNegrita"
+                                   Text="{Binding NombreCompleto}" 
+                                   FontSize="20"/>
+                            
+
+                            <Label  Grid.Column="0"
+                                    Grid.Row="1"
+                                    Text="Edad: " 
+                                    FontFamily="AppleNegrita"
+                                    TextColor="Black"
+                                    FontSize="20"/>
+                            
+                            <Label  Grid.Column="1"
+                                    Grid.Row="1"
+                                    FontFamily="AppleNegrita"
+                                    Text="{Binding Edad}"  
+                                    FontSize="20"/>
+                            
+
+                            <Label  Grid.Column="0"
+                                    Grid.Row="2"
+                                    Text="Correo: " 
+                                    FontFamily="AppleNegrita"
+                                    TextColor="Black"
+                                    FontSize="20"/>
+
+                            <Label  Grid.Column="1"
+                                    Grid.Row="2" 
+                                    FontFamily="AppleNegrita"
+                                    Text="{Binding Correo}"
+                                    FontSize="20"/>
+                            
+
+                            <Label  Grid.Column="0"
+                                    Grid.Row="3"
+                                    Text="Direccion: "
+                                    FontFamily="AppleNegrita"
+                                    TextColor="Black"
+                                    FontSize="20"/>
+
+                            <Label   Grid.Column="1"
+                                     Grid.Row="3" 
+                                     FontFamily="AppleNegrita"
+                                     Text="{Binding Direccion}" 
+                                     FontSize="20"/>
+
+                            
+                            <Label  Grid.Column="0"
+                                    Grid.Row="4"
+                                    Text="Fecha: " 
+                                    FontFamily="AppleNegrita"
+                                    TextColor="Black"
+                                    FontSize="20"/>
+
+                            <Label  Grid.Column="1"
+                                    Grid.Row="4"
+                                    FontFamily="AppleNegrita"
+                                    Text="{Binding FechaNacimiento, StringFormat='{0:dd/MM/yyyy}'}"
+                                    FontSize="20"/>
+
+                            <Button Grid.Column="0"
+                                    Grid.Row="5"
+                                    x:Name="btnModificar"
+                                    Text="Modificar"                                    
+                                    Margin="20,10,20,0" 
+                                    CornerRadius="30"
+                                    BackgroundColor="#55C5DA" 
+                                    Clicked="btnModificar_Clicked"/>
+
+                            <Button Grid.Column="1"
+                                    Grid.Row="5"
+                                    x:Name="btnEliminar" 
+                                    Text="Eliminar" 
+                                    Margin="20,10,20,0" 
+                                    CornerRadius="30"
+                                    BackgroundColor="#E12E29"                                   
+                                    Clicked="btnEliminar_Clicked"/>
+                        </Grid>
+
+                    </ViewCell>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

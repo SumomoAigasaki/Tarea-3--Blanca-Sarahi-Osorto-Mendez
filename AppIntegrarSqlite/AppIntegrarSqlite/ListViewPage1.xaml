@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppIntegrarSqlite.ListViewPage1">
+    <ListView x:Name="ListaPersonas"
+            ItemsSource="{Binding ListaPersona}"
+            ItemTapped="Handle_ItemTapped"
+            CachingStrategy="RecycleElement">
+    <!--Built in Cells-->
+    <!--<ListView.ItemTemplate>
+        <DataTemplate>
+            <TextCell Text="{Binding Nombres}" />
+        </DataTemplate>
+    </ListView.ItemTemplate>-->
+    
+    <!--Custom View Cells-->
+    
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+             <ViewCell.ContextActions>
+                 <MenuItem Clicked="MenuItem_Clicked"
+                       CommandParameter="{Binding Id}"
+                       Text="More" />
+                 <MenuItem Clicked="MenuItem_Clicked_1"
+                      CommandParameter="{Binding Id}"
+                      Text="Delete" IsDestructive="True" />
+                 </ViewCell.ContextActions>
+           <StackLayout>
+                <Grid Grid.Row="6"  >
+                      <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                      </Grid.ColumnDefinitions>
+                      <Grid.RowDefinitions>
+                              <RowDefinition Height="*" />
+                              <RowDefinition Height="*" />
+                      </Grid.RowDefinitions>
+                     <Label  
+                        Grid.Column="0"
+                        Grid.Row="0"
+                        Text="Nombre Completo: "
+                        />
+                    
+                     <Label  
+                        Grid.Column="1"
+                        Grid.Row="0"
+                        Text="{Binding Nombres}" />
+                    <Label 
+                        Grid.Column="2"
+                        Grid.Row="0"
+                        Text="{Binding Apellidos}"/>
+
+                     <Label  
+                        Grid.Column="0"
+                        Grid.Row="1"
+                        Text="Edad: "
+                        />
+                    <Label  
+                        Grid.Column="1"
+                        Grid.Row="1"
+                        Text="{Binding Edad}"
+                        />
+                     
+                    <Label 
+                         Grid.Column="0"
+                        Grid.Row="2"
+                        Text="Correo: "
+                        />
+                    <Label  
+                        Grid.Column="1"
+                        Grid.Row="2"
+                        Text="{Binding Correo}"
+                        />
+                            <Label 
+                        Grid.Column="2"
+                        Grid.Row="1"
+                        Text="{Binding FechaNacimiento, StringFormat='{0:dd/MM/yyyy}'}"/>
+                </Grid>
+           </StackLayout>
+            
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+    
+  </ListView>
+</ContentPage>

@@ -1,0 +1,31 @@
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\bin\Debug\netstandard2.0\AppIntegrarSqlite.deps.json
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\bin\Debug\netstandard2.0\AppIntegrarSqlite.dll
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\bin\Debug\netstandard2.0\ref\AppIntegrarSqlite.dll
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\bin\Debug\netstandard2.0\AppIntegrarSqlite.pdb
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\AppIntegrarSqlite.csprojAssemblyReference.cache
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\AppIntegrarSqlite.AssemblyInfoInputs.cache
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\AppIntegrarSqlite.AssemblyInfo.cs
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\AppIntegrarSqlite.csproj.CoreCompileInputs.cache
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\AppIntegrarSqlite.dll
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\ref\AppIntegrarSqlite.dll
+C:\Users\Sarah Osorto\OneDrive\Documents\Visual Studio 2019\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\AppIntegrarSqlite.pdb
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\AppIntegrarSqlite.csprojAssemblyReference.cache
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\AppIntegrarSqlite.AssemblyInfoInputs.cache
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\AppIntegrarSqlite.AssemblyInfo.cs
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\AppIntegrarSqlite.csproj.CoreCompileInputs.cache
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\AppIntegrarSqlite.dll
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\ref\AppIntegrarSqlite.dll
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\AppIntegrarSqlite.pdb
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\bin\Debug\netstandard2.0\AppIntegrarSqlite.deps.json
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\bin\Debug\netstandard2.0\AppIntegrarSqlite.dll
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\bin\Debug\netstandard2.0\ref\AppIntegrarSqlite.dll
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\bin\Debug\netstandard2.0\AppIntegrarSqlite.pdb
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Sarah Osorto\source\repos\AppIntegrarSqlite\AppIntegrarSqlite\AppIntegrarSqlite\obj\Debug\netstandard2.0\ListViewPage1.xaml.g.cs
